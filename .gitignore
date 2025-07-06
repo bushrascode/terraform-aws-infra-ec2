@@ -5,4 +5,13 @@ my-key.pub
 .terraform.lock.hcl
 .terraform
 
+/Users/bushrafatima/.ssh/my-key-pair
+/Users/bushrafatima/.ssh/my-key-pair.pub
 
+*.pem
+*.pub
+*.key
+*.priv
+*.crt
+*.csr
+*.ssh
