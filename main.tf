@@ -1,6 +1,6 @@
 resource "aws_instance" "first_ec2" {
-  ami                    = "ami-0c803b171269e2d72"
-  instance_type          = "t3.micro"
+  ami                    = var.ami
+  instance_type          = var.instance_type
   key_name = aws_key_pair.key_pair.key_name
   vpc_security_group_ids = [aws_security_group.security_group_web_access.id, aws_security_group.security_group_ssh_access.id]
 
